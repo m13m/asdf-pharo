@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Zeroconf is a tool to get up running with pharo quickly 
+# It comes in 32 bit and 64 bit version 
+# (e.g https://get.pharo.org/<version_name> or https://get.pharo.org/64/<version_name> )
+
+
