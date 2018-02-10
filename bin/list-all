@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 
-# Zeroconf is a tool to get up running with pharo quickly 
-# It comes in 32 bit and 64 bit version 
-# (e.g https://get.pharo.org/<version_name> or https://get.pharo.org/64/<version_name> )
-
 PHARO_VERSIONS_URL=https://raw.githubusercontent.com/m13m/asdf-pharo/master/pharo/versions.txt
 
 function get_versions() {
 	curl --silent $1
 }
-
 
 pharo_versions=$(
 	get_versions $PHARO_VERSIONS_URL
